@@ -1,13 +1,35 @@
 body {
     font-family: sans-serif;
   }
-  
-  .todo-app-container {
+  .the-app-holder
+  {
     background-color: aquamarine;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .todo-app-container {
+    
     padding:20px;
+  }
+  .make-list-add
+  {
+   
+    position: relative;
+    left:70%;
+    font-size:30px;
+    width:80px;
+    font-weight:bold;
+    margin-top:5%;
+    background-color:white;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
   .todo-item-wrapper {
     background-color: white;
+    width:70%;
+    margin-left:15%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom:10px;
@@ -19,3 +41,42 @@ body {
     padding: 10px;
   }
   
+
+  .user-input-list
+  {   
+     background-color: rgb(190, 251, 231);
+   position:absolute;
+   left:35%;
+   width:30%;
+   text-align: center;
+   margin-top:5%;
+   border-radius:10px;
+   display:none;
+   font-size:20px;
+   
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  }
+.add-user-list-btn
+{
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    border:1px gainsboro;
+    margin-bottom:5px;
+    font-weight:bold;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.add-user-list-btn:hover
+{
+    background-color:  rgb(115, 243, 201);
+     font-size:30px;
+    
+}
+  .user-input-list input
+  {
+    width:80%;
+    height:60px;
+    margin-left:10%;
+     margin:5%;
+     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  }

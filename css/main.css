@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .todo-app-container {
+    background-color: aquamarine;
+    padding:20px;
+  }
+  .todo-item-wrapper {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:10px;
+  }
+  
+  
+  .title-desc {
+    margin-left: 20px;
+    padding: 10px;
+  }
+  

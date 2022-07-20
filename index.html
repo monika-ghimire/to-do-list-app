@@ -8,6 +8,15 @@
 
   <body>
     <div class="the-app-holder">
+      <input type="text" placeholder="Search.." id="showListSearch" onkeyup="showListSearchShow()">
+      <diV class="btn-holder">
+        <button id="seeAllTask" onclick=" showAllListWithForeach() ">see All Task </button>
+      <button id="seeCompletedTaskbtn" onclick="seeCompletedTaskbtn()">see Completed Task </button>
+      <div id="seeCompletedTask">
+
+      </div>
+      </diV>
+      
       <button class="make-list-add" id="makelistadd" onclick="addListBtn()">+</button>
      
       <div class="todo-app-container" id="todo-app">
@@ -27,7 +36,7 @@
 
       
       <div>
-        <button id="deleteAllList" onclick="deleteListAllBtn()" id="deleteListAll"> Delete All List</button>
+        <button id="deleteAllList" onclick="deleteListAllBtn()" > Delete All List</button>
         <div class="deletebtnoption" id="deletebtnoption"> 
               <p>do you really want to delet all list</p>
           
@@ -40,6 +49,9 @@
       <br> 
      <div  class="complete-task">
       <a href="completetask.html"> see complete task</a>
+      <div id="demo">
+
+      </div>
      </div>    
   </div>
        

@@ -101,7 +101,6 @@ body {
  top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 .add-user-list-btn
@@ -125,7 +124,6 @@ transform: translate(-50%, -50%);
   width:80%;
   height:60px;
   margin-left:10%;
-
    margin:5%;
    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
@@ -141,7 +139,7 @@ transform: translate(-50%, -50%);
   background-color: aliceblue;
   color:rgb(197, 16, 16);
   font-weight: bold;
-
+  display:block;
 }
 #deleteAllList:hover
 {
@@ -149,10 +147,7 @@ transform: translate(-50%, -50%);
 }
 .complete-task 
 {
- 
-
   text-align: center;
-
 }
 .complete-task a{
   text-decoration:none;
@@ -183,4 +178,8 @@ transform: translate(-50%, -50%);
 #cancleBtn
 {
   background-color: aqua;
+}
+.btn-holder
+{
+  margin-bottom:10px;
 }

@@ -9,8 +9,52 @@
    
  </head>
  <body>
-     <div class="completeted-task-holder">
+    <link rel="stylesheet" href="./css/main.css">
+    <div class="the-app-holder">
+      <diV class="btn-holder">
+       
+      
+      <div id="seeCompletedTask">
 
-     </div>
- </body>
+      </div>
+      </diV>
+      
+      <button class="make-list-add" id="makelistadd" onclick="addListBtn()">+</button>
+     
+      <div class="todo-app-container" id="todo-app">
+        <div id="todo-app-dynamic-list"></div>
+        <div id="modal" >
+          <div class="user-input-list" id="addingNewtodowork">
+
+            <h4>Add List</h4>
+           <input  id="tltle"type="text" placeholder="Title.." >
+           <br>
+           <input  id="description"type="text" placeholder="description..." >
+           <button type="submit" class="add-user-list-btn" onclick="addUserList()">ADD</button>
+         </div>
+        </div>
+       
+      </div>
+
+      
+      <div>
+        <button id="deleteAllList" onclick="deleteListAllBtn()" > Delete All List</button>
+        <div class="deletebtnoption" id="deletebtnoption"> 
+              <p>do you really want to delet all list</p>
+          
+                <button id="btnalldelet" onclick="btnalldelet()" > YES </button>
+                 <button id="cancleBtn" onclick="cancle()">cancle</button>
+        </div>
+        <hr>
+      </div>
+      
+      <br> 
+     <div  class="complete-task">
+      <a href="index.html"> Home</a>
+      <div id="demo">
+
+      </div>
+     </div>    
+  </div>
+ <script src="./js/main.js"></script>
  </html>
